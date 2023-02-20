@@ -1,0 +1,25 @@
+@import './var';
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $color-bg-default;
+    font-family: $font-default;
+}
+
+h1 {
+    color: $color-font;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+h2 {
+    margin-top: 4rem;
+}
+
+header,section,footer{
+    display: block;
+    float: left;
+    width: 100%;
+}
